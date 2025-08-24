@@ -17,8 +17,12 @@ export default function CounterPage () {
             >
                 +1
             </button>
-        </div>
-        
-        
+            <button
+                className="bg-black text-white border border-white px-6 py-2 rounded mt-5 hover:bg-white hover:text-black hover:border transition"
+                onClick={() => setCount(count - 1)}
+            >
+                -1
+            </button>
+        </div>        
     )
 }
